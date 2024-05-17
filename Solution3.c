@@ -16,6 +16,10 @@ FILE* read_csv(const char* filepath)
 	do
 	{
 		c = fgetc(file);
+<<<<<<< HEAD
+=======
+		// kalo error baca file
+>>>>>>> 910c0f1 (Fixed bug that won't let the code read the file.csv)
 		if (ferror(file))
 		{
 			printf("Error reading file.\n");
