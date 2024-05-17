@@ -8,3 +8,5 @@ Here's the tutorial:
 4. Have fun!
 
 Don't forget to change the path to file.csv on all of the C files to avoid any errors
+
+Just fixed bugs that prevent the code from reading file.csv

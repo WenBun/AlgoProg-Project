@@ -16,6 +16,7 @@ FILE* read_csv(const char* filepath)
     do
     {
         c = fgetc(file);
+        // kalo error print gabisa baca file
         if (ferror(file))
         {
             printf("Error reading file.\n");
